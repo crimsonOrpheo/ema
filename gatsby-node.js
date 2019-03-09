@@ -28,7 +28,7 @@ exports.createPages = ({ actions, graphql }) => {
       result.errors.forEach(e => console.error(e.toString()))
       return Promise.reject(result.errors)
     }
-    
+
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
@@ -37,8 +37,8 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
-  })
-}
+  }
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions

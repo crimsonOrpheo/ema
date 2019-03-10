@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
     return (
       <section className="section section--gradient margin-top-0 padding-top-0 padding-bottom-0">
       <div className="container margin-top-0">
-        <div className="columns margin-top-0 margin-right-0">
+        <div className="columns margin-top-0">
           <div className="column is-10 is-offset-1 margin-top-0 padding-top-0 padding-bottom-0">
             <div className="section margin-top-0 padding-top-0 padding-bottom-0">
       <nav

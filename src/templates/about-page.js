@@ -10,9 +10,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   return (
     <section className="section section--gradient padding-top-24">
       <div className="container padding-top-24">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
+        <div className="columns padding-top-0">
+          <div className="column is-10 is-offset-1 padding-top-0">
+            <div className="section padding-top-0">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
